@@ -86,7 +86,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p1a42/proprietary/lib64/hw/fingerprint.goldfish.so:system/lib64/hw/fingerprint.goldfish.so \
     vendor/lenovo/p1a42/proprietary/lib64/hw/fingerprint.ranchu.so:system/lib64/hw/fingerprint.ranchu.so \
     vendor/lenovo/p1a42/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
-    vendor/lenovo/p1a42/proprietary/lib64/hw/lights.msm8916.so:system/lib64/hw/lights.msm8916.so \
     vendor/lenovo/p1a42/proprietary/lib64/hw/sensors.msm8916.so:system/lib64/hw/sensors.msm8916.so \
     vendor/lenovo/p1a42/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
     vendor/lenovo/p1a42/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
@@ -105,7 +104,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p1a42/proprietary/lib/hw/fingerprint.goldfish.so:system/lib/hw/fingerprint.goldfish.so \
     vendor/lenovo/p1a42/proprietary/lib/hw/fingerprint.ranchu.so:system/lib/hw/fingerprint.ranchu.so \
     vendor/lenovo/p1a42/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-    vendor/lenovo/p1a42/proprietary/lib/hw/lights.msm8916.so:system/lib/hw/lights.msm8916.so \
     vendor/lenovo/p1a42/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/lenovo/p1a42/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/lenovo/p1a42/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
