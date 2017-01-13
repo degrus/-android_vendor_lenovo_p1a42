@@ -39,6 +39,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p1a42/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/lenovo/p1a42/proprietary/bin/radish:system/bin/radish \
     vendor/lenovo/p1a42/proprietary/bin/rfs_access:system/bin/rfs_access \
+    vendor/lenovo/p1a42/proprietary/bin/rild:system/bin/rfs_access \
     vendor/lenovo/p1a42/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/lenovo/p1a42/proprietary/bin/tftp_server:system/bin/tftp_server \
     vendor/lenovo/p1a42/proprietary/bin/time_daemon:system/bin/time_daemon \
