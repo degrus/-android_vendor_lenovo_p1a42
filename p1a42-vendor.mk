@@ -42,7 +42,33 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p1a42/proprietary/bin/vfmExTest:system/bin/vfmExTest \
     vendor/lenovo/p1a42/proprietary/bin/vfmService:system/bin/vfmService \
     vendor/lenovo/p1a42/proprietary/bin/vm_bms:system/bin/vm_bms \
+    vendor/lenovo/p1a42/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
+    vendor/lenovo/p1a42/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
+    vendor/lenovo/p1a42/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
+    vendor/lenovo/p1a42/proprietary/etc/acdbdata/MTP/MTP_Handset_cal.acdb:system/etc/acdbdata/MTP/MTP_Handset_cal.acdb \
+    vendor/lenovo/p1a42/proprietary/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
+    vendor/lenovo/p1a42/proprietary/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
+    vendor/lenovo/p1a42/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
+    vendor/lenovo/p1a42/proprietary/etc/acdbdata/QRD/msm8939-snd-card-skul:system/etc/acdbdata/QRD/msm8939-snd-card-skul \
+    vendor/lenovo/p1a42/proprietary/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_Bluetooth_cal.acdb:system/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_Bluetooth_cal.acdb \
+    vendor/lenovo/p1a42/proprietary/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_General_cal.acdb:system/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_General_cal.acdb \
+    vendor/lenovo/p1a42/proprietary/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_Global_cal.acdb:system/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_Global_cal.acdb \
+    vendor/lenovo/p1a42/proprietary/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_Handset_cal.acdb:system/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_Handset_cal.acdb \
+    vendor/lenovo/p1a42/proprietary/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_Hdmi_cal.acdb:system/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_Hdmi_cal.acdb \
+    vendor/lenovo/p1a42/proprietary/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_Headset_cal.acdb:system/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_Headset_cal.acdb \
+    vendor/lenovo/p1a42/proprietary/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_Speaker_cal.acdb:system/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_Speaker_cal.acdb \
+    vendor/lenovo/p1a42/proprietary/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:system/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb \
+    vendor/lenovo/p1a42/proprietary/etc/acdbdata/QRD/QRD_General_cal.acdb:system/etc/acdbdata/QRD/QRD_General_cal.acdb \
+    vendor/lenovo/p1a42/proprietary/etc/acdbdata/QRD/QRD_Global_cal.acdb:system/etc/acdbdata/QRD/QRD_Global_cal.acdb \
+    vendor/lenovo/p1a42/proprietary/etc/acdbdata/QRD/QRD_Handset_cal.acdb:system/etc/acdbdata/QRD/QRD_Handset_cal.acdb \
+    vendor/lenovo/p1a42/proprietary/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:system/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb \
+    vendor/lenovo/p1a42/proprietary/etc/acdbdata/QRD/QRD_Headset_cal.acdb:system/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
+    vendor/lenovo/p1a42/proprietary/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:system/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
+    vendor/lenovo/p1a42/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
     vendor/lenovo/p1a42/proprietary/etc/cdrom_install.iso:system/etc/cdrom_install.iso \
+    vendor/lenovo/p1a42/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
+    vendor/lenovo/p1a42/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
+    vendor/lenovo/p1a42/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
     vendor/lenovo/p1a42/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
     vendor/lenovo/p1a42/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
     vendor/lenovo/p1a42/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
@@ -66,11 +92,35 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p1a42/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/lenovo/p1a42/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/lenovo/p1a42/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
+    vendor/lenovo/p1a42/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
+    vendor/lenovo/p1a42/proprietary/etc/flp.conf:system/etc/flp.conf \
+    vendor/lenovo/p1a42/proprietary/etc/gps.conf:system/etc/gps.conf \
+    vendor/lenovo/p1a42/proprietary/etc/hostapd/hostapd.accept:system/etc/hostapd/hostapd.accept \
+    vendor/lenovo/p1a42/proprietary/etc/hostapd/hostapd_default.conf:system/etc/hostapd/hostapd_default.conf \
+    vendor/lenovo/p1a42/proprietary/etc/hostapd/hostapd.deny:system/etc/hostapd/hostapd.deny \
+    vendor/lenovo/p1a42/proprietary/etc/izat.conf:system/etc/izat.conf \
+    vendor/lenovo/p1a42/proprietary/etc/libnfc-brcm-20795a20.conf:system/etc/libnfc-brcm-20795a20.conf \
+    vendor/lenovo/p1a42/proprietary/etc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
+    vendor/lenovo/p1a42/proprietary/etc/lowi.conf:system/etc/lowi.conf \
+    vendor/lenovo/p1a42/proprietary/etc/mixer_paths_mtp.xml:system/etc/mixer_paths_mtp.xml \
+    vendor/lenovo/p1a42/proprietary/etc/nfcee_access.xml:system/etc/nfcee_access.xml \
     vendor/lenovo/p1a42/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/lenovo/p1a42/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/lenovo/p1a42/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/lenovo/p1a42/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/lenovo/p1a42/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
+    vendor/lenovo/p1a42/proprietary/etc/sap.conf:system/etc/sap.conf \
+    vendor/lenovo/p1a42/proprietary/etc/tfa98xx/coldboot.patch:system/etc/tfa98xx/coldboot.patch \
+    vendor/lenovo/p1a42/proprietary/etc/tfa98xx/music.eq:system/etc/tfa98xx/music.eq \
+    vendor/lenovo/p1a42/proprietary/etc/tfa98xx/music.preset:system/etc/tfa98xx/music.preset \
+    vendor/lenovo/p1a42/proprietary/etc/tfa98xx/P1_SPK_0801.speaker:system/etc/tfa98xx/P1_SPK_0801.speaker \
+    vendor/lenovo/p1a42/proprietary/etc/tfa98xx/speech.eq:system/etc/tfa98xx/speech.eq \
+    vendor/lenovo/p1a42/proprietary/etc/tfa98xx/speech.preset:system/etc/tfa98xx/speech.preset \
+    vendor/lenovo/p1a42/proprietary/etc/tfa98xx/TFA9890_N1B12_N1C3_v3.config:system/etc/tfa98xx/TFA9890_N1B12_N1C3_v3.config \
+    vendor/lenovo/p1a42/proprietary/etc/tfa98xx/TFA9890_N1C3_2_1_1.patch:system/etc/tfa98xx/TFA9890_N1C3_2_1_1.patch \
+    vendor/lenovo/p1a42/proprietary/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
+    vendor/lenovo/p1a42/proprietary/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
+    vendor/lenovo/p1a42/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
     vendor/lenovo/p1a42/proprietary/lib64/hw/audio.primary.msm8916.so:system/lib64/hw/audio.primary.msm8916.so \
     vendor/lenovo/p1a42/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so \
     vendor/lenovo/p1a42/proprietary/lib64/hw/fingerprint.goldfish.so:system/lib64/hw/fingerprint.goldfish.so \
@@ -114,6 +164,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p1a42/proprietary/vendor/bin/RIDLClient.exe:system/vendor/bin/RIDLClient.exe \
     vendor/lenovo/p1a42/proprietary/vendor/bin/sampleauthdaemon:system/vendor/bin/sampleauthdaemon \
     vendor/lenovo/p1a42/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
+    vendor/lenovo/p1a42/proprietary/vendor/etc/audio_effects.conf:system/vendor/etc/audio_effects.conf \
     vendor/lenovo/p1a42/proprietary/vendor/etc/msm_irqbalance.conf:system/vendor/etc/msm_irqbalance.conf \
     vendor/lenovo/p1a42/proprietary/vendor/firmware/BCM20795A2_001.003.025.0005.0050_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A2_001.003.025.0005.0050_Generic_I2C_NCD_Unsigned_configdata.ncd \
     vendor/lenovo/p1a42/proprietary/vendor/firmware/BCM20795A2_001.003.025.0005.0051_Customers_China_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A2_001.003.025.0005.0051_Customers_China_NCD_Unsigned_configdata.ncd \
@@ -132,7 +183,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p1a42/proprietary/vendor/lib64/egl/libRBGLESv2_adreno.so:system/vendor/lib64/egl/libRBGLESv2_adreno.so \
     vendor/lenovo/p1a42/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
     vendor/lenovo/p1a42/proprietary/vendor/lib64/hw/gatekeeper.msm8916.so:system/vendor/lib64/hw/gatekeeper.msm8916.so \
-    vendor/lenovo/p1a42/proprietary/vendor/lib64/hw/keystore.msm8916.so:system/vendor/lib64/hw/keystore.msm8916.so \
     vendor/lenovo/p1a42/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
     vendor/lenovo/p1a42/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
     vendor/lenovo/p1a42/proprietary/vendor/lib64/libacdbrtac.so:system/vendor/lib64/libacdbrtac.so \
