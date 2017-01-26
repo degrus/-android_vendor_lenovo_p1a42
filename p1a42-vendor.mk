@@ -18,7 +18,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p1a42/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/lenovo/p1a42/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/lenovo/p1a42/proprietary/bin/fast_charger_sw:system/bin/fast_charger_sw \
-    vendor/lenovo/p1a42/proprietary/bin/fingerprintd:system/bin/fingerprintd \
     vendor/lenovo/p1a42/proprietary/bin/garden_app:system/bin/garden_app \
     vendor/lenovo/p1a42/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
     vendor/lenovo/p1a42/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
