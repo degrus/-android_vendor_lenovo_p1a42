@@ -131,6 +131,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p1a42/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
     vendor/lenovo/p1a42/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
     vendor/lenovo/p1a42/proprietary/lib64/libnetd_client.so:system/lib64/libnetd_client.so \
+    vendor/lenovo/p1a42/proprietary/lib64/libril.so:system/lib64/libril.so \
     vendor/lenovo/p1a42/proprietary/lib64/libtfa98xx.so:system/lib64/libtfa98xx.so \
     vendor/lenovo/p1a42/proprietary/lib64/libunwind.so:system/lib64/libunwind.so \
     vendor/lenovo/p1a42/proprietary/lib64/libvalAuth.so:system/lib64/libvalAuth.so \
@@ -151,6 +152,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p1a42/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/lenovo/p1a42/proprietary/lib/libnetd_client.so:system/lib/libnetd_client.so \
     vendor/lenovo/p1a42/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/lenovo/p1a42/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/lenovo/p1a42/proprietary/lib/libtfa98xx.so:system/lib/libtfa98xx.so \
     vendor/lenovo/p1a42/proprietary/lib/libunwind.so:system/lib/libunwind.so \
     vendor/lenovo/p1a42/proprietary/lib/libvalAuth.so:system/lib/libvalAuth.so \
@@ -414,7 +416,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p1a42/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
 PRODUCT_PACKAGES += \
-    libril \
     libtime_genoff \
     colorservice \
     shutdownlistener \
