@@ -33,7 +33,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p1a42/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/lenovo/p1a42/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/lenovo/p1a42/proprietary/bin/radish:system/bin/radish \
-    vendor/lenovo/p1a42/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/lenovo/p1a42/proprietary/bin/rild:system/bin/rild \
     vendor/lenovo/p1a42/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/lenovo/p1a42/proprietary/bin/tftp_server:system/bin/tftp_server \
@@ -56,7 +55,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p1a42/proprietary/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:system/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb \
     vendor/lenovo/p1a42/proprietary/etc/acdbdata/QRD/QRD_Headset_cal.acdb:system/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
     vendor/lenovo/p1a42/proprietary/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:system/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
-    vendor/lenovo/p1a42/proprietary/etc/acdbdata/QRD/msm8939-snd-card-skul:system/etc/acdbdata/QRD/msm8939-snd-card-skul \
     vendor/lenovo/p1a42/proprietary/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_Bluetooth_cal.acdb:system/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_Bluetooth_cal.acdb \
     vendor/lenovo/p1a42/proprietary/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_General_cal.acdb:system/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_General_cal.acdb \
     vendor/lenovo/p1a42/proprietary/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_Global_cal.acdb:system/etc/acdbdata/QRD/msm8939-snd-card-skul/QRD_SKUL_Global_cal.acdb \
