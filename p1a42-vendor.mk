@@ -245,6 +245,8 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p1a42/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
     vendor/lenovo/p1a42/proprietary/vendor/lib/liblocationservice_glue.so:system/vendor/lib/liblocationservice_glue.so \
     vendor/lenovo/p1a42/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
+    vendor/lenovo/p1a42/proprietary/vendor/lib/liblowi_wifihal.so:system/vendor/lib/liblowi_wifihal.so \
+    vendor/lenovo/p1a42/proprietary/vendor/lib/liblowi_wifihal_nl.so:system/vendor/lib/liblowi_wifihal_nl.so \
     vendor/lenovo/p1a42/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/lenovo/p1a42/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
     vendor/lenovo/p1a42/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
@@ -370,6 +372,8 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/p1a42/proprietary/vendor/lib64/liblocationservice.so:system/vendor/lib64/liblocationservice.so \
     vendor/lenovo/p1a42/proprietary/vendor/lib64/liblocationservice_glue.so:system/vendor/lib64/liblocationservice_glue.so \
     vendor/lenovo/p1a42/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
+    vendor/lenovo/p1a42/proprietary/vendor/lib64/liblowi_wifihal.so:system/vendor/lib64/liblowi_wifihal.so \
+    vendor/lenovo/p1a42/proprietary/vendor/lib64/liblowi_wifihal_nl.so:system/vendor/lib64/liblowi_wifihal_nl.so \
     vendor/lenovo/p1a42/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
     vendor/lenovo/p1a42/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
     vendor/lenovo/p1a42/proprietary/vendor/lib64/libmm-abl-oem.so:system/vendor/lib64/libmm-abl-oem.so \
